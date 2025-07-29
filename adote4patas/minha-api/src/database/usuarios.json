@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "nome": "João da Silva",
+      "email": "joao.silva@example.com",
+      "senha": "senha123",
+      "icone": "/src/uploads/icon.png"
+    }
+    ,
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@example.com",
+      "senha": "senha456",
+      "icone": "/src/uploads/icon.png"
+    }
+    ,
+    {
+      "id": 3,
+      "nome": "Carlos Pereira",
+      "email": "carlos.pereira@example.com",
+      "senha": "senha789",
+      "icone": "/src/uploads/icon.png"
+    }
+    ,
+    {
+      "id": 4,
+      "nome": "Ana Souza",
+      "email": "ana.souza@example.com",
+      "senha": "senha101",
+      "icone": "/src/uploads/icon.png"
+    }
+  ]

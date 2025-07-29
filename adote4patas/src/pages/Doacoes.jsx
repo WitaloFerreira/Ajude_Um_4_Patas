@@ -43,11 +43,11 @@ function Doacoes(){
                             selected={valorSelecionado === valor}
                             onChange={() => handleClick(valor)}
                             sx={{
-                                borderRadius: '12px', // bordas arredondadas
-                                border: '1px solid #ddd', // borda individual
+                                borderRadius: '12px', 
+                                border: '1px solid #ddd',
                                 color: '#5c5c5c',
                                 '&.Mui-selected': {
-                                backgroundColor: '#f0f0f0', // cor ao selecionar
+                                backgroundColor: '#f0f0f0', 
                                 borderColor: '#aaa'
                                 }
                             }}>

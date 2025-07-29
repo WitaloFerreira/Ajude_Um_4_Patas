@@ -1,0 +1,105 @@
+[
+    {
+      "id": 1,
+      "classificacao": "adt",
+      "tipo": "Cachorro",
+      "nome": "Sem nome",
+      "raca": "SRD (Sem Raça Definida)",
+      "idade": "1 mes",
+      "cor": "Branco e Marrom",
+      "sexo": "Fêmea",
+      "imgUrl": "/uploads/animais/id1.jpeg",
+      "info": "Não informado"
+    }
+    ,
+    {
+      "id": 2,
+      "nome": "Sem nome",
+      "classificacao": "adt",
+      "tipo": "Cachorro",
+      "raca": "SRD (Sem Raça Definida)",
+      "idade": "1 mes",
+      "cor": "Preto e Branco",
+      "sexo": "Fêmea",
+      "imgUrl": "/uploads/animais/id2.jpeg",
+      "info": "Não informado"
+    }
+    ,
+    {
+      "id": 3,
+      "nome": "Sem nome",
+      "classificacao": "adt",
+      "tipo": "Cachorro",
+      "raca": "SRD (Sem Raça Definida)",
+      "idade": "1 mes",
+      "cor": "Branco e Preto",
+      "sexo": "Fêmea",
+      "imgUrl": "/uploads/animais/id3.jpeg",
+      "info": "Não informado"
+    }
+    ,
+    {
+      "id": 4,
+      "nome": "Sem nome",
+      "classificacao": "adt",
+      "tipo": "Cachorro",
+      "raca": "SRD (Sem Raça Definida)",
+      "idade": "2 meses",
+      "cor": "Preto",
+      "sexo": "Fêmea",
+      "imgUrl": "/uploads/animais/id4.jpeg",
+      "info": "Vermefugada"
+    }
+    ,
+    {
+      "id": 5,
+      "nome": "Sem nome",
+      "classificacao": "adt",
+      "tipo": "Cachorro",
+      "raca": "SRD (Sem Raça Definida)",
+      "idade": "Não informado",
+      "cor": "Caramelo e Branco",
+      "sexo": "Fêmea",
+      "imgUrl": "/uploads/animais/id5.jpeg"
+      ,"info": "Não informado"
+    }
+    ,
+    {
+      "id": 6,
+      "nome": "Nazare",
+      "classificacao": "adt",
+      "tipo": "Cachorro",
+      "raca": "SRD (Sem Raça Definida)",
+      "idade": "1 ano e 6 meses",
+      "cor": "Branco e Marrom",
+      "sexo": "Fêmea",
+      "imgUrl": "/uploads/animais/id6.jpeg",
+      "info": "Castrada"
+    }
+    ,
+    {
+      "id": 7,
+      "nome": "Malu",
+      "classificacao": "apd",
+      "tipo": "Cachorro",
+      "raca": "SRD (Sem Raça Definida)",
+      "idade": "Não informado",
+      "cor": "Branco e Marrom",
+      "sexo": "Fêmea",
+      "imgUrl": "/uploads/animais/id7.jpeg",
+      "info": "Não informado"
+    }
+    ,
+    {
+      "id": 8,
+      "nome": "Hercules",
+      "classificacao": "apd",
+      "tipo": "Cachorro",
+      "raca": "SRD (Sem Raça Definida)",
+      "idade": "Não informado",
+      "cor": "Branco e Marrom",
+      "sexo": "Fêmea",
+      "imgUrl": "/uploads/animais/id8.jpg",
+      "info": "Não informado"
+    }
+  ]

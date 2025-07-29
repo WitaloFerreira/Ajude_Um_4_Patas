@@ -11,18 +11,16 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb'; // Icone do Adb
 
 import { Link as RouterLink } from 'react-router-dom';
 
-// Se quiser usar a logo que geramos anteriormente:
-import LogoImage from '../assets/logo-mock.png'; // Verifique o caminho correto!
+import LogoImage from '../assets/logo.jpeg'; 
 
 const navLinks = [
   { title: 'Adote', path: '/adotar' },
   { title: 'Apadrinhe', path: '/apadrinhar' },
   { title: 'Doações', path: '/doar'},
-  { title: 'Contato', path: '/contatos' } // Corrigido para /contato
+  { title: 'Contato', path: '/contatos' } 
 ];
 const settings = ['Logout'];
 
@@ -49,15 +47,11 @@ function ResponsiveAppBar() {
     <AppBar position="fixed" sx={{ backgroundColor: 'white', color: '#000', borderBottom: '1px solid hsl(0, 0%, 82%)' }}>
       <Container maxWidth="xxl">
         <Toolbar disableGutters>
-          {/* LOGO para desktop - Adicionar flexGrow: 1 aqui */}
-          {/* Você pode substituir o AdbIcon e Typography pelo seu logo */}
-          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
-          {/* Exemplo com a imagem da logo */}
           <Box sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
             <img
-              src={LogoImage} // Use a imagem importada
+              src={LogoImage} 
               alt="Logo do Site"
-              style={{ height: '40px', objectFit: 'contain' }} // Ajuste o tamanho
+              style={{ height: '40px', objectFit: 'contain', borderRadius: '20px' }} 
             />
           </Box>
           <Typography
@@ -73,13 +67,12 @@ function ResponsiveAppBar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
-              flexGrow: 1, // <--- ADICIONE ESTE ESTILO AQUI
+              flexGrow: 1, 
             }}
           >
             Ajude Um 4 Patas
           </Typography>
 
-          {/* Menu de navegação para mobile */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -115,8 +108,7 @@ function ResponsiveAppBar() {
             </Menu>
           </Box>
 
-          {/* LOGO para mobile */}
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          
           <Typography
             variant="h5"
             noWrap
@@ -125,7 +117,7 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
-              flexGrow: 1, // Mantém flexGrow para mobile, pois o menu hamburger está à esquerda
+              flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -133,11 +125,15 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
+            <img
+              src={LogoImage} 
+              alt="Logo do Site"
+              style={{ height: '40px', objectFit: 'contain', borderRadius: '20px' }} // Ajuste o tamanho
+            />
             Ajude Um 4 Patas
           </Typography>
 
-          {/* Links de navegação para desktop - REMOVA flexGrow: 1 AQUI */}
-          <Box sx={{ display: { xs: 'none', md: 'flex' } }}> {/* Remova flexGrow: 1 daqui */}
+          <Box sx={{ display: { xs: 'none', md: 'flex' } }}> 
             {navLinks.map((link) => (
               <Button
                 key={link.title}
@@ -151,7 +147,6 @@ function ResponsiveAppBar() {
             ))}
           </Box>
 
-          {/* Configurações do usuário (Avatar) */}
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>

@@ -9,7 +9,7 @@ function Footer(){
               <div className='fst-link-cont'>
                 <div className='fst-link'>
                   <Link href="#" underline="none" sx={{color: '#b58947'}}>
-                    Política de Privacidade
+                    Políticas
                   </Link>
                 </div>
                 <div className='fst-link'>
@@ -18,13 +18,13 @@ function Footer(){
                   </Link>
                 </div>
                 <div className='fst-link'>
-                  <Link href="#" underline="none" sx={{color: '#b58947'}}>
+                  <Link href="/contatos" underline="none" sx={{color: '#b58947'}}>
                     Contato
                   </Link>
                 </div>
               </div>
               <div className='redes-cont'>
-                <Link href="#" underline="none" sx={{color: '#b58947'}}>
+                <Link href="https://www.instagram.com/ajudeum4patas?igsh=NzdpdTV4dHM4Mnhm" underline="none" sx={{color: '#b58947'}}>
                   <InstagramIcon sx={{fontSize: '2rem'}} />
                 </Link>
               </div>
